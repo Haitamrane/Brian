@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brian</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+            <a href="index.html"><img src="img/logo-brian.svg" alt="logo" class="logo"></a>
+        <ul class="menu">
+            <li><a href="index.html">ACHETER</a></li>
+            <li><a href="acheter.html">VENDRE</a></li>
+            <li><a href="visiter.html">RENDEZ-VOUS</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <ul class="contenu" id="contenu">
+            <li>Achat</li>
+            <li>A vendre</li>
+            <li>Honoraire</li>
+        </ul>
+
+        <div class="achat">
+            <ul class="contenu_achat">
+                <li>Type de bien<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
+                <li>Surface<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
+                <li>Prix<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
+                <li>Pièces<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
+                <li>Autre<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
+            </ul>
+        </div>
+
+        <div class="check_type">    
+            <ul>
+            <li><input type="checkbox" name="Maison" value="Maison" checked> Maison<br></li>
+            <li><input type="checkbox" name="Appartement" value="Appartement"> Appartement<br></li>
+            <li><input type="checkbox" name="Local commercial" value="Local commercial"> Local commercial<br></li>
+            </ul>
+        </div>
+
+        <div class="check_surface">
+            <ul>
+            <li><input type="checkbox" name="Habitable" value="Habitable" checked> Habitable<br></li>
+            <li><input type="checkbox" name="Terrain" value="Terrain"> Terrain<br></li>
+            </ul>
+        </div>
+
+        <div class="check_prix">
+            <ul>
+            <li>Prix</li>
+            <input type="text" name="prix" placeholder="€"><br>
+            </ul>
+        </div>
+
+        <div class="check_piece">
+                <ul>
+                <li><input type="checkbox" name="pieces" value="pieces" checked> 1 piece<br></li>
+                <li><input type="checkbox" name="pieces" value="pieces"> 2 pieces<br></li>
+                <li><input type="checkbox" name="pieces" value="pieces"> 3 pieces<br></li>
+                <li><input type="checkbox" name="pieces" value="pieces"> 4 pieces<br></li>
+                <li><input type="checkbox" name="pieces" value="pieces"> 5 pieces<br></li>
+                <li><input type="checkbox" name="pieces" value="pieces"> 6 ou + pieces<br></li>
+                </ul>
+        </div>
+
+        <div class="check_autre">
+                <ul>
+                <li class="autre_com"><a href="index.html">Commentaire</li></a>
+                </ul>
+        </div>
+    </main>
+    
+    <footer>
+        Br'immobilier Copyright
+    </footer>
+</body>
+</html>

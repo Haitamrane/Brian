@@ -1,0 +1,267 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset */
+
+header {
+    background: rgb(16, 16, 16);
+    color: white;
+}
+
+.logo {
+    padding: 4px 0 0 100px;
+    width: 120px;
+    float: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    color: rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+/* header */
+
+body {
+    background-image: url('/img/fond.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    padding-top: 4px;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.contenu li {
+    background: white;
+    box-shadow: 1px 2px 6px rgb(0, 0, 0);
+    padding: 20px 30px 20px 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contenu li:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.contenu_achat {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.contenu_achat li {
+    background: white;
+    padding: 10px 15px 10px 15px;
+}
+
+.arrow {
+    float: right;
+    width: 15px;
+    padding-left: 20px;
+}
+
+.achat {
+    visibility: hidden;
+}
+
+.achat-visible {
+    visibility: visible;
+}
+
+.contenu_vente {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -38px; 
+}
+
+.contenu_vente li {
+    border: 1px solid black;
+    background: white;
+    padding: 10px 15px 10px 15px;
+}
+
+.check_type {
+    margin: -8px 0 0 101px;
+    visibility: hidden;
+}
+
+.check_type ul {
+    margin: 8px;
+    background: white;
+    width: 200px; 
+}
+
+.check_type ul li {
+    padding: 20px 10px 20px 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.check_surface {
+    margin: -185px 0 0 476px;
+    visibility: hidden;
+}
+
+.check_surface ul {
+    margin: 8px;
+    background: white;
+    width: 200px; 
+}
+
+.check_surface ul li {
+    padding: 10px 10px 10px 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.check_prix {
+    margin: -85px 0 0 815px;
+    visibility: hidden;
+}
+
+.check_prix ul {
+    margin: 8px;
+    background: white;
+    width: 200px;
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check_prix ul li {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.check_prix ul input {
+    height: 20px;
+}
+
+.check_piece {
+    margin: -44px 0 0 1127px;
+    visibility: hidden;
+}
+
+.check_piece ul {
+    margin: 8px;
+    background: white;
+    width: 200px; 
+}
+
+.check_piece ul li {
+    padding: 10px 10px 10px 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.check_autre {
+    margin: -236px 0 0 1459px;
+    visibility: hidden;
+}
+
+.check_autre ul {
+    margin: 8px;
+    background: white;
+    width: 150px; 
+}
+
+.autre_com {
+    padding: 10px 10px 10px 10px;
+}
+
+.autre_com a {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.autre_com a:hover {
+    text-decoration: underline;
+}

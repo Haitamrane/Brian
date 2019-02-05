@@ -1,0 +1,82 @@
+body {
+  font: 16px sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 100;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes anim {
+  50% {
+    transform: translate(-150px);
+  }
+  70% {
+    transform: translate(0px);
+  }
+}
+@keyframes anim2 {
+  50% {
+    transform: translate(150px);
+  }
+  70% {
+    transform: translate(0px);
+  }
+}
+@keyframes text {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes text2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.partie1 {
+  animation: anim 6s infinite;
+  animation-delay: 1s;
+}
+
+.partie2 {
+  animation: anim2 6s infinite;
+  animation-delay: 1s;
+}
+
+.name {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0;
+  animation: text 2.3s;
+  animation-delay: 1.9s;
+}
+
+.name2 {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0;
+  animation: text2 1s;
+  animation-delay: 2.1s;
+}
