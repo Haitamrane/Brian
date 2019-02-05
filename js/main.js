@@ -3,14 +3,16 @@ var achat = document.querySelectorAll('.achat ul li');
 var type = document.querySelector('.check_type ul');
 var surface = document.querySelector('.check_surface ul');
 var prix = document.querySelector('.check_prix ul');
-var piece = document.querySelector('.check_piece ul')
-var autre = document.querySelector('.check_autre ul')
+var piece = document.querySelector('.check_piece ul');
+var autre = document.querySelector('.check_autre ul');
+var valider = document.querySelector('.valider');
 
 
 contenu[0].addEventListener("click",function(){
     for (let i = 0; i < achat.length; i++) {
         achat[i].classList.toggle('achat-visible');      
     }
+    valider.classList.toggle('valider-visible');
     type.classList.remove('achat-visible');
     surface.classList.remove('achat-visible');
     prix.classList.remove('achat-visible');
@@ -43,6 +45,7 @@ contenu[1].addEventListener("click",function(){
     for (let i = 0; i < achat.length; i++) {
         achat[i].classList.toggle('achat-visible');      
     }
+    valider.classList.toggle('valider-visible');
     type.classList.remove('achat-visible');
     surface.classList.remove('achat-visible');
     prix.classList.remove('achat-visible');
