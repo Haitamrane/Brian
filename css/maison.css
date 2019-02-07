@@ -78,3 +78,111 @@ header {
     color: rgb(209, 209, 209);
     cursor: pointer;
 }
+
+/* header */
+
+.title_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+
+.div_maison {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.maison {
+    width: 50%;;
+    padding-top: 2%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 420px 0 420px;
+    font-family: Roboto, sans-serif;
+}
+
+.text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(193, 0, 0);
+    padding-top: 10px;
+    margin-left: 755px;
+}
+
+.text h2 {
+    font-size: 26px;
+    font-weight: 300;
+    padding: 15px 0 10px 0;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 130%;
+}
+
+.contact {
+ position: absolute;
+ height: 50vh;
+ width: 15vw;
+ background: black;
+ margin: 80px 0px 20px 50px;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_blanc {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button_contacter {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 2px;
+    padding: 10px 60px 10px 60px;
+}
+
+.button_mail {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 2px;
+    padding: 10px 70px 10px 70px;
+}
+
+.logo-dedans {
+    width: 200px;
+    padding-top: 30px;
+}
