@@ -4,7 +4,6 @@ var type = document.querySelector('.check_type ul');
 var surface = document.querySelector('.check_surface ul');
 var prix = document.querySelector('.check_prix ul');
 var piece = document.querySelector('.check_piece ul');
-var autre = document.querySelector('.check_autre ul');
 var valider = document.querySelector('.valider');
 
 
@@ -35,11 +34,6 @@ achat[2].addEventListener("click",function(){
 achat[3].addEventListener("click",function(){
     piece.classList.toggle('achat-visible');      
 })
-
-achat[4].addEventListener("click",function(){
-    autre.classList.toggle('achat-visible');      
-})
-
 
 contenu[1].addEventListener("click",function(){
     for (let i = 0; i < achat.length; i++) {

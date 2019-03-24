@@ -60,9 +60,19 @@ header {
     float: left;
 }
 
+.contenu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenu li a:hover {
+    color: white;
+}
+
 .menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
+    padding-left: 90px; 
     align-items: center;
     height: 120px;
 }
@@ -163,7 +173,7 @@ main {
 }
 
 .check_type {
-    margin: -8px 0 0 101px;
+    margin: -8px 0 0 142px;
     visibility: hidden;
 }
 
@@ -181,7 +191,7 @@ main {
 }
 
 .check_surface {
-    margin: -185px 0 0 476px;
+    margin: -185px 0 0 597px;
     visibility: hidden;
 }
 
@@ -199,7 +209,7 @@ main {
 }
 
 .check_prix {
-    margin: -85px 0 0 815px;
+    margin: -120px 0 0 1017px;
     visibility: hidden;
 }
 
@@ -207,9 +217,9 @@ main {
     margin: 8px;
     background: white;
     width: 200px;
-    height: 40px; 
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -217,15 +227,19 @@ main {
     font-family: Roboto, sans-serif;
     font-weight: 600;
     font-size: 14px;
-    padding-right: 10px;
+    padding: 15px 10px 0px 10px;
 }
+
+.check_prix ul li:nth-child(2) {
+    padding-bottom: 15px; 
+} 
 
 .check_prix ul input {
     height: 20px;
 }
 
 .check_piece {
-    margin: -44px 0 0 1127px;
+    margin: -105px 0 0 1409px;
     visibility: hidden;
 }
 
@@ -273,8 +287,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
     visibility: hidden;
+    margin-top: -60px;
 }
 
 .valider-visible {
@@ -288,6 +302,19 @@ main {
     font-size: 16px;
     border: 1px solid black;
     margin-right: -1px;
+}
+
+.para {
+    margin: 40px 30% 0 30%;
+    background: black;
+}
+
+.para p {
+    font-family: Roboto, sans-serif;
+    color: white;
+    padding: 10px;
+    line-height: 130%;
+    text-align: center;
 }
 
 button {
@@ -307,4 +334,8 @@ footer {
     line-height: 30px;
     text-align: center;
     margin-bottom: 0px;
+}
+
+footer {
+    font-weight: lighter;
 }

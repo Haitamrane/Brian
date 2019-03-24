@@ -62,7 +62,8 @@ header {
 
 .menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
+    padding-left: 90px; 
     align-items: center;
     height: 120px;
 }
@@ -81,9 +82,16 @@ header {
 
 /* header */
 
+body {
+    background-image: url('/img/fond.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .title_div {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 100vw;
     padding-top: 30px;
@@ -98,14 +106,24 @@ header {
 
 .div_maison {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100vw;
 }
 
+.copro {
+    color: white;
+    font-family: roboto, sans-serif;
+    padding: 10px;
+    background: black;
+    font-size: 18px;
+    margin-right: 0px;
+}
+
 .maison {
-    width: 50%;;
+    width: 25%;;
     padding-top: 2%;
+    margin-left: 420px;
+    margin-right: 450px;
 }
 
 .text {
@@ -116,12 +134,12 @@ header {
     font-family: Roboto, sans-serif;
 }
 
-.text h3 {
+.title_div h3 {
     font-size: 20px;
     font-weight: 500;
     color: rgb(193, 0, 0);
-    padding-top: 10px;
-    margin-left: 755px;
+    margin-top: 10px;
+    font-weight: bolder;
 }
 
 .text h2 {
@@ -138,11 +156,11 @@ header {
 }
 
 .contact {
- position: absolute;
- height: 50vh;
- width: 15vw;
- background: black;
- margin: 80px 0px 20px 50px;
+    position: absolute;
+    height: 50vh;
+    width: 15vw;
+    background: black;
+    margin: 92px 0px 20px 100px;
 }
 
 .contact ul {
@@ -179,10 +197,23 @@ header {
     color: black;
     background: white;
     border-radius: 2px;
-    padding: 10px 70px 10px 70px;
+    padding: 10px 30px 10px 30px;
 }
 
 .logo-dedans {
     width: 200px;
     padding-top: 30px;
+}
+
+.dpe {
+    position: absolute;
+    width: 300px;
+    margin-left: 52%;
+}
+
+.text .foot {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
 }

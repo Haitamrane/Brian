@@ -13,9 +13,7 @@
     <header>
             <a href="index.html"><img src="img/logo-brian.svg" alt="logo" class="logo"></a>
         <ul class="menu">
-            <li><a href="index.html">ACHETER</a></li>
-            <li><a href="acheter.html">VENDRE</a></li>
-            <li><a href="visiter.html">RENDEZ-VOUS</a></li>
+            <li><a href="rendez.html">RENDEZ-VOUS</a></li>
         </ul>
     </header>
 
@@ -23,7 +21,7 @@
         <ul class="contenu" id="contenu">
             <li>Achat</li>
             <li>A vendre</li>
-            <li>Honoraire</li>
+            <li><a href="honoraire.html">Honoraire</a></li>
         </ul>
 
         <div class="achat">
@@ -32,7 +30,6 @@
                 <li>Surface<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
                 <li>Prix<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
                 <li>Pièces<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
-                <li>Autre<img src="img/arrow.svg" alt="arrow" class="arrow"></li>
             </ul>
         </div>
 
@@ -48,13 +45,14 @@
             <ul>
             <li><input type="checkbox" name="Habitable" value="Habitable" checked> Habitable<br></li>
             <li><input type="checkbox" name="Terrain" value="Terrain"> Terrain<br></li>
+            <li><input type="text" value="" placeholder="M²"></li>
             </ul>
         </div>
 
         <div class="check_prix">
             <ul>
-            <li>Max</li>
-            <input type="text" name="prix" placeholder="€"><br>
+            <li>Max<input type="text" name="prix" placeholder="€"></li>
+            <li>Min<input type="text" name="prix" placeholder="€"></li>
             </ul>
         </div>
 
@@ -69,15 +67,16 @@
                 </ul>
         </div>
 
-        <div class="check_autre">
-                <ul>
-                <li class="autre_com"><a href="index.html">Commentaire</li></a>
-                </ul>
-        </div>
-
         <div class="valider">
             <input type="text" value="" placeholder="Ville, Département, Code postal">
             <a href="maison.html"><button type="button">Rechercher</button></a>
+        </div>
+
+        <div class="para">
+            <p>Votre projet immobilier à Paris 13ème arrondissement, trouvera certainement sa finalité avec Br'immobilier, agence
+                récemment implanté sur le secteur, mais ne cesse d'accroître son portefeuille client.
+                Nous sommes à votre écoute pour tout projet vente ou investissement immobilier.
+            </p>
         </div>
 
     </main>
